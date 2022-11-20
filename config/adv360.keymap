@@ -60,7 +60,7 @@
             bindings = <
  &kp F1              &kp F2         &kp F3         &kp F4         &kp F5      &kp F6            &macro_undo  &macro_redo  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
  &trans              &trans         &trans         &trans         &trans      &trans            &macro_undo  &macro_redo  &trans  &trans  &trans  &kp F10   &trans   &trans
- &trans  &macro_colonequals  &macro_quotes  &macro_braces  &macro_parens  &macro_and                 &trans  &macro_copy  &trans                    &none   &trans   &trans  &macro_or  &macro_abrackets  &macro_brackets  &macro_dquotes  &macro_codenewline   &none
+ &trans  &macro_colonequals  &macro_quotes  &macro_braces  &macro_parens  &macro_and                 &trans  &macro_copy  &trans                    &none    &none   &trans  &macro_or  &macro_abrackets  &macro_brackets  &macro_dquotes  &macro_codenewline   &none
  &trans              &trans         &trans          &none          &none      &trans                  &none        &none  &trans   &none   &none   &trans    &none    &none     &trans            &trans           &trans          &trans              &trans  &trans
  &trans              &trans         &trans         &trans         &trans      &trans                 &trans       &trans  &trans  &trans  &trans   &trans   &trans   &trans     &trans            &trans
             >;
