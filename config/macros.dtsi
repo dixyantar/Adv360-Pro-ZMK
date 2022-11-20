@@ -1,3 +1,57 @@
+macro_or: macro_or{
+compatible = "zmk,behavior-macro";
+label = "macro_or";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp PIPE>, <&kp PIPE>, <&kp SPACE>;
+};
+macro_and: macro_and{
+compatible = "zmk,behavior-macro";
+label = "macro_and";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp AMPERSAND>, <&kp AMPERSAND>, <&kp SPACE>;
+};
+macro_undo: macro_undo{
+compatible = "zmk,behavior-macro";
+label = "macro_undo";
+#binding-cells = <0>;
+bindings = <&sk LEFT_COMMAND>, <&kp Z>;
+};
+macro_redo: macro_redo{
+compatible = "zmk,behavior-macro";
+label = "macro_redo";
+#binding-cells = <0>;
+bindings = <&sk LEFT_COMMAND>, <&kp LEFT_SHIFT>, <&kp Z>;
+};
+macro_colonequals: macro_colonequals{
+compatible = "zmk,behavior-macro";
+label = "macro_colonequals";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp COLON>, <&kp EQUAL>, <&kp SPACE>;
+};
+macro_abrackets: macro_abrackets{
+compatible = "zmk,behavior-macro";
+label = "macro_abrackets";
+#binding-cells = <0>;
+bindings = <&kp LESS_THAN>, <&kp GREATER_THAN>, <&kp LEFT>;
+};
+macro_const: macro_const{
+compatible = "zmk,behavior-macro";
+label = "macro_const";
+#binding-cells = <0>;
+bindings = <&kp C>, <&kp O>, <&kp N>, <&kp S>, <&kp T>;
+};
+macro_codenewline: macro_codenewline{
+compatible = "zmk,behavior-macro";
+label = "macro_codenewline";
+#binding-cells = <0>;
+bindings = <&kp SEMI>, <&kp ENTER>;
+};
+macro_copy: macro_copy{
+compatible = "zmk,behavior-macro";
+label = "macro_copy";
+#binding-cells = <0>;
+bindings = <&sk LEFT_COMMAND>, <&kp C>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
